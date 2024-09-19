@@ -9,7 +9,7 @@ function App() {
         
       <div className="overlay">
         <div className="content">
-          <h1>Effortless Travel Planning! Let AI Be Your Expert Guide.</h1>
+          <h1>Road Trip Planner</h1>
           <p>Bid farewell to generic holiday packages. Get Your AI-Personalised Itineraries</p>
           <button className="btn-plan">Plan Itinerary For Free!</button>
         </div>
