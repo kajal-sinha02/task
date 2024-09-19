@@ -1,0 +1,117 @@
+.travel-planner {
+    background-image: url('https://images.pexels.com/photos/6473805/pexels-photo-6473805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Add the correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6); /* dark overlay */
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: white;
+  }
+  
+  .content {
+    max-width: 50%;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-plan {
+    background-color: #ffd700;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn-plan:hover {
+    background-color: #f0c419;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    color: black;
+    width: 400px;
+  }
+  
+  .travel-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .travel-form .date-inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .date-inputs input {
+    width: 48%;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  .btn-continue {
+    background-color: #ffd700;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn-continue:hover {
+    background-color: #f0c419;
+  }
+  
+  .features {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .features div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .features span {
+    margin-right: 10px;
+  }
+  

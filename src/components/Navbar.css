@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px 50px; /* Increased padding for larger navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 30px; /* Increased height */
+  }
+  
+  /* Logo and text container */
+  .navbar-logo-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo styling */
+  .navbar-logo {
+    height: 40px; /* Increased logo height */
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  /* TarzanWay text styling */
+  .navbar-text {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333; /* You can adjust color as needed */
+  }
+  
+  /* Center search bar */
+  .navbar-search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-search input {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 500px; /* Increased width for larger search bar */
+    font-size: 18px;
+  }
+  
+  /* Bold Placeholder styling */
+  .navbar-search input::placeholder {
+    color: #888;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; /* Added bold text for placeholder */
+  }
+  
+  /* Trip button */
+  .navbar-trip-btn {
+    margin-left: auto;
+  }
+  
+  .trip-btn {
+    padding: 15px 30px; /* Larger button */
+    background-color: #eed325;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .trip-btn:hover {
+    background-color: #e68900;
+  }
+  

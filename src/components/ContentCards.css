@@ -1,0 +1,22 @@
+.content-section {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  

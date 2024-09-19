@@ -1,0 +1,34 @@
+.hero {
+    height: 70vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7pPGi6wGd0Ixjf-COCejyTYw5kCKEiuhr0g&s') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: darkorange;
+  }
+  
